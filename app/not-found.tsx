@@ -1,0 +1,1 @@
+export default function NotFound(){return <main className="shell page-section"><div className="panel empty"><div className="eyebrow plain">404</div><h1>Бет табылмады</h1><p className="muted">Бұл мекенжайда бет жоқ. Басты бетке оралыңыз.</p><a className="btn" href="/">Басты бетке өту</a></div></main>}
