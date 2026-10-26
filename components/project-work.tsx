@@ -6,7 +6,7 @@ const photos = [
 ];
 export default function ProjectWork() {
   return <section className="page-section project-work">
-    <div className="page-title"><div className="eyebrow plain">ARKASAFE ЖОБАСЫ</div><h1>Жұмыс барысы</h1><p>Құрастырудан сайтты тексеруге дейінгі жұмыс сәттері.</p></div>
+    <div className="page-title"><div className="eyebrow plain">ARQASAFE ЖОБАСЫ</div><h1>Жұмыс барысы</h1><p>Құрастырудан сайтты тексеруге дейінгі жұмыс сәттері.</p></div>
     <div className="work-gallery">{photos.map((photo, i) => <figure className="panel work-photo" key={photo.id}>
       <a href={`/work/project-${photo.id}.jpg`} target="_blank" rel="noopener noreferrer" aria-label={`${photo.title}: фотоны толық ашу`}><img src={`/work/project-${photo.id}.jpg`} alt={photo.alt} width={960} height={1280} loading="lazy"/></a>
       <figcaption><span className="eyebrow plain">0{i+1}</span><h2>{photo.title}</h2><p className="muted">{photo.text}</p></figcaption>

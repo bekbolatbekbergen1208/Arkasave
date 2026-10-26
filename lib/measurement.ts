@@ -1,4 +1,4 @@
-export const notice='ArkaSafe медициналық құрылғы емес және диагноз қоймайды. Ол датчикке дейінгі қашықтық өзгергенде түзу отыруды еске салады. Бір датчик дененің барлық бағыттағы қисаюын анықтамайды.';
+export const notice='ArqaSafe медициналық құрылғы емес және диагноз қоймайды. Ол датчикке дейінгі қашықтық өзгергенде түзу отыруды еске салады. Бір датчик дененің барлық бағыттағы қисаюын анықтамайды.';
 export type Settings={baselineMm:number;toleranceMm:number;alertAfterSeconds:number};
 export type Reading={distanceMm:number;timestamp:string};
 export type Sample=Reading&{deviationMm:number;status:'good'|'warn'|'alert'};
